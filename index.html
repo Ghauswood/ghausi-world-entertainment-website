@@ -7,7 +7,7 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background-color: #E6E6FA; /* Pastel lavender color for the entire background */
+      background-color: blue;
       color: white;
     }
 
@@ -15,11 +15,9 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      position: relative; /* Position the header */
-      z-index: 2; /* Set a higher z-index for the header */
-      background-color: transparent; /* Set the header background to transparent */
+      background-color: white;
       padding: 10px 20px;
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid black; /* Adding a 2px solid black stroke at the bottom */
     }
 
     .logo img {
@@ -29,12 +27,6 @@
     .menu-icon {
       font-size: 24px;
       cursor: pointer;
-    }
-
-    .content {
-      padding: 20px;
-      position: relative; /* Position the content */
-      z-index: 1; /* Set a lower z-index for the content */
     }
   </style>
 </head>
@@ -47,9 +39,6 @@
       <i class="fa fa-bars"></i>
     </div>
   </header>
-  <div class="content">
-    <h1>Welcome to Ghausi World Entertainment</h1>
-    <!-- Other content goes here -->
-  </div>
+  <h1>Welcome to Ghausi World Entertainment</h1>
 </body>
 </html>
