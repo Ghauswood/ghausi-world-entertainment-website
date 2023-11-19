@@ -15,9 +15,11 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: white;
+      background-color: transparent; /* Set the header background to transparent */
       padding: 10px 20px;
       border-bottom: 2px solid black;
+      position: relative; /* Position the header relative to body */
+      z-index: 1; /* Set the header above the content */
     }
 
     .logo img {
@@ -31,6 +33,9 @@
 
     .content {
       padding: 20px;
+      background-color: #E6E6FA; /* Same pastel lavender color for the content background */
+      position: relative; /* Position the content area relative to body */
+      z-index: 0; /* Set the content behind the header */
     }
   </style>
 </head>
