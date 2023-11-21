@@ -30,17 +30,31 @@
       cursor: pointer;
     }
 
+    .about-button {
+      padding: 8px 15px;
+      background-color: #555;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .about-button:hover {
+      background-color: #333;
+    }
+
     .about-content {
       padding: 20px;
     }
 
-    h1 {
+    .about-content h1 {
       text-align: center;
       /* Adding stroke effect */
       text-shadow: -1px -1px 0 #000,  
                    1px -1px 0 #000,  
                    -1px 1px 0 #000,  
                    1px 1px 0 #000; /* Adjust shadow values for the desired stroke effect */
+      font-size: 40px; /* Adjust the font size as needed */
     }
   </style>
 </head>
@@ -51,6 +65,9 @@
     </div>
     <div class="menu-icon">
       <i class="fa fa-bars"></i>
+    </div>
+    <div>
+      <a href="about.html" class="about-button">About Us</a> <!-- About Us button -->
     </div>
   </header>
   <div class="about-content">
