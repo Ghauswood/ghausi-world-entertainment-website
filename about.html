@@ -35,9 +35,10 @@
 
     .about-button {
       position: absolute;
-      top: 50%; /* Adjust the top position */
-      transform: translateY(-50%); /* Center the button vertically */
-      right: 20px; /* Adjust the right positioning */
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: auto;
       padding: 10px;
       background-color: #555;
       color: white;
@@ -48,7 +49,7 @@
       align-items: center;
       justify-content: center;
       width: 100px; /* Set the width equal to the height to make it a square */
-      height: 40px; /* Set the height to fit the header */
+      height: 85%; /* Set the height to cover the entire header */
     }
 
     .about-button:hover {
@@ -59,7 +60,6 @@
     .about-content {
       padding: 20px;
     }
-
     .about-title {
       /* Adding stroke effect */
       text-shadow: -1px -1px 0 #000,  
