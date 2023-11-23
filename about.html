@@ -21,6 +21,7 @@
       padding: 10px 20px;
       border-bottom: 3.5px solid #555;
       height: 100px; /* Specify the height of the header */
+      position: relative; /* Make the header position relative */
     }
 
     .logo img {
@@ -34,7 +35,8 @@
 
     .about-button {
       position: absolute;
-      top: 0;
+      top: 50%; /* Adjust the top position */
+      transform: translateY(-50%); /* Center the button vertically */
       right: 20px; /* Adjust the right positioning */
       padding: 10px;
       background-color: #555;
@@ -78,8 +80,8 @@
     <div class="menu-icon">
       <i class="fa fa-bars"></i>
     </div>
+    <a href="about.html" class="about-button">About Us</a> <!-- About Us button -->
   </header>
-  <a href="about.html" class="about-button">About Us</a> <!-- About Us button -->
   <div class="about-content">
     <h1 class="about-title">About Us</h1>
     <!-- Your About Us content goes here -->
